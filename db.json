@@ -1,0 +1,19 @@
+{
+  "contacts": [
+    {
+      "name": "diego",
+      "phone": "667852574",
+      "birthday": "1998-01-29T23:00:00.000Z",
+      "technologies": ["Angular", "PHP", "SQL", "HTML", "Javascript", "CSS"],
+      "id": 1
+    },
+    {
+      "name": "maria",
+      "phone": "666751456",
+      "birthday": "2000-04-19",
+      "technologies": ["ASP", ".Net"],
+      "id": 2
+    }
+  ],
+  "technologies": ["Angular", "PHP", "SQL", "ASP", ".Net", "HTML", "Javascript", "CSS", "Python"]
+}

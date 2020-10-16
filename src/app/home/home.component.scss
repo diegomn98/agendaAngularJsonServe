@@ -1,0 +1,35 @@
+#listas {
+  line-height: 70px;
+  margin-top: 100px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+table {
+  margin-top: 40px;
+  border: 2px solid #367391;
+  font-size: 16px;
+  width: 80%;
+  clear: both;
+  th {
+    text-align: center;
+    border-bottom: 2px solid #367391;
+    font-family: sans-serif;
+    border-left: 2px solid #367391;
+    border-right: 2px solid #367391;
+  }
+  td {
+    text-align: center;
+    border-bottom: 2px solid #367391;
+    font-family: sans-serif;
+    border-left: 2px solid #367391;
+    border-right: 2px solid #367391;
+  }
+}
+#titulo {
+  float: left;
+  margin-top: 40px;
+}
+.botonAñadir {
+  float: left;
+}

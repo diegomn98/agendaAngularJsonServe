@@ -1,0 +1,15 @@
+<mat-toolbar class="mat-elevation-z6 navbar" color="primary">
+  <div fxHide.lt-md>
+    <a class="brand" routerLink="/" translate>Contacts</a>
+    <button mat-button routerLink="/home" routerLinkActive="active">
+      <mat-icon> format_list_bulleted</mat-icon>
+      <span>List</span>
+    </button>
+    <button mat-button routerLink="/about" routerLinkActive="active">
+      <mat-icon>person_add</mat-icon>
+      <span>Add Contact</span>
+    </button>
+  </div>
+  <span fxFlex></span>
+  <app-language-selector icon="true"></app-language-selector>
+</mat-toolbar>

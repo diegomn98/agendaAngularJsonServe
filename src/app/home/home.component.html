@@ -1,0 +1,25 @@
+<div id="listas" class="listas">
+  <h1 class="titulo" id="titulo">Listas</h1>
+  <table id="table" class="table">
+    <thead>
+      <tr style="background-color: #367391; color: white">
+        <th scope="col">#</th>
+        <th scope="col">Contact Name</th>
+        <th scope="col">Phone</th>
+        <th scope="col">Date of Birth</th>
+        <th scope="col">Technologies</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let contacto of contactos; let i = index">
+        <th scope="row">{{ i + 1 }}</th>
+        <td>{{ contactos[i]['name'] }}</td>
+        <td>{{ contactos[i]['phone'] }}</td>
+        <td>{{ contactos[i]['birthday'] }}</td>
+        <td>{{ contactos[i]['technologies'] }}</td>
+        <td><button type="button" class="btn btn-primary" (click)="edit(contactos[i])">Editar</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
